@@ -1,16 +1,8 @@
 const calculator = {
-    sum: (a, b) => {
-        return a + b;
-    },
-    subs: (a, b) => {
-        return a - b;
-    },
-    multiply: (a, b) => {
-        return a * b;
-    },
-    divide: (a, b) => {
-        return a / b;
-    }
-}
+  sum: (a, b) => a + b,
+  subs: (a, b) => a - b,
+  multiply: (a, b) => a * b,
+  divide: (a, b) => a / b,
+};
 
 module.exports = calculator;
