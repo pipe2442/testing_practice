@@ -1,7 +1,7 @@
-const sum = (a, b) => {
-    return a + b;
+const cap = (s) => {
+    if (typeof s !== 'string') return ''
+    return s.charAt(0).toUpperCase() + s.slice(1)
 }
 
-console.log(sum(2, 3));
 
-module.exports = sum;
+module.exports = cap;

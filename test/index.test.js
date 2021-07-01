@@ -1,5 +1,5 @@
-const sum = require('../src/index');
+const cap = require('../src/index');
 
-test('adds 1 + 2 to equal 3', () => {
-    expect(sum(1, 2)).toBe(3);
+test('capitalize the first letter of the world javascript', () => {
+    expect(cap('javascript')).toBe('Javascript');
 });
