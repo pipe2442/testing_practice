@@ -45,7 +45,8 @@ This is a single testing practice using Jest with Javascript.
     ```
 6. run
     ```bash
-    npm run test
+    $ npm run test
+    $ npm install --save-dev jest
     ``` 
     
 # Project Screenshot
