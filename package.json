@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest",
     "dev": "webpack --mode development",
     "watch": "webpack --mode development --watch",
     "build": "webpack --mode production"
@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/pipe2442/testing_practice#readme",
   "devDependencies": {
+    "jest": "^27.0.6",
     "webpack": "^5.41.1",
     "webpack-cli": "^4.7.2"
   }
